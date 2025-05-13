@@ -14,9 +14,9 @@ Phishing attacks trick users into giving up sensitive information via deceptive 
 
 ```text
 PhishGuard-Lite/
-├── data/            # Contains raw and processed datasets
-    ├── phishing.csv # Processed dataset
-├── notebooks/       # Jupyter/Colab notebooks for experiments and EDA
+├── data/            # Contains raw and processed dataset
+│   ├── phishing.csv # Processed dataset
+├── notebooks/       # Jupyter/Colab notebook
 ├── src/             # Clean modular Python codebase
 │   ├── features.py  # Feature engineering and data preprocessing functions
 │   ├── model.py     # Model training and evaluation logic
