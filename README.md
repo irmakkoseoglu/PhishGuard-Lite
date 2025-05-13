@@ -14,16 +14,16 @@ Phishing attacks trick users into giving up sensitive information via deceptive 
 
 ```text
 PhishGuard-Lite/
-├── data/           # Contains raw and processed datasets
-├── notebooks/      # Jupyter/Colab notebooks for experiments and EDA
-├── src/            # Clean modular Python codebase
-│   ├── features.py # Feature engineering and data preprocessing functions
-│   ├── model.py    # Model training and evaluation logic
-│   └── utils.py    # Visualization and helper functions (e.g., confusion matrix)
-├── phishing.csv    # Processed dataset
-├── requirements.txt# Python dependencies
-├── LICENSE         # Open source license (MIT)
-└── README.md       # Project description and setup
+├── data/            # Contains raw and processed datasets
+    ├── phishing.csv # Processed dataset
+├── notebooks/       # Jupyter/Colab notebooks for experiments and EDA
+├── src/             # Clean modular Python codebase
+│   ├── features.py  # Feature engineering and data preprocessing functions
+│   ├── model.py     # Model training and evaluation logic
+│   └── utils.py     # Visualization and helper functions (e.g., confusion matrix)
+├── requirements.txt # Python dependencies
+├── LICENSE          # Open source license (MIT)
+└── README.md        # Project description and setup
 
 
 
