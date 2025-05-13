@@ -4,23 +4,29 @@ PhishGuard Lite is a lightweight machine learning-based tool that detects phishi
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 Phishing attacks trick users into giving up sensitive information via deceptive websites. This project uses a dataset of URLs and their associated features to train a Naive Bayes model that classifies them as either **Safe** or **Phishing**.
 
 ---
 
-## Project Structure
+##  Project Structure
 
+```text
 PhishGuard-Lite/
-├── data/ # Contains phishing dataset (CSV)
-├── notebooks/ # Jupyter/Colab notebook
-├── src/ # Python modules (helpers, feature engineering, modeling)
-│ ├── utils.py # Helper functions (data loading, missing handling)
-│ ├── features.py # Feature engineering logic
-│ └── model.py # Model training and evaluation
-├── phishing.csv # Processed dataset (optional)
-└── README.md # Project description and instructions
+├── data/           # Contains raw and processed datasets
+├── notebooks/      # Jupyter/Colab notebooks for experiments and EDA
+├── src/            # Clean modular Python codebase
+│   ├── features.py # Feature engineering and data preprocessing functions
+│   ├── model.py    # Model training and evaluation logic
+│   └── utils.py    # Visualization and helper functions (e.g., confusion matrix)
+├── phishing.csv    # Processed dataset
+├── requirements.txt# Python dependencies
+├── LICENSE         # Open source license (MIT)
+└── README.md       # Project description and setup
+
+
+
 
 ---
 
@@ -71,7 +77,7 @@ PhishGuard-Lite/
    
 4. Run model.py or step through the notebook to see the results.
 
-🎯 Example Results
+Example Results
 Accuracy: ~88%
 
 Precision: ~90%
@@ -80,15 +86,9 @@ Recall: ~86%
 
 Note: Results may vary depending on data split and preprocessing.
 
-✨ Future Improvements
-Include more complex models (e.g., Random Forest, XGBoost)
-
-Add URL-based NLP features
-
-Deploy as a simple web app
 
 👩‍💻 Author
-İrmak Köseoğlu
+Irmak Köseoğlu
 Feel free to reach out on LinkedIn or open issues for questions & feedback.
 
 📝 License
