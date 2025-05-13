@@ -1,1 +1,6 @@
-import pandas as pd
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+kaggle
