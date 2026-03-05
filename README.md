@@ -26,7 +26,7 @@ PhishGuard-Lite/
 ├── LICENSE                   # Open source license (MIT)
 └── README.md                 # Project description and setup
 
-
+```
 
 
 ---
