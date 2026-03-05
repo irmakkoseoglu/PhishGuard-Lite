@@ -4,7 +4,7 @@ PhishGuard Lite is a lightweight machine learning-based tool that detects phishi
 
 ---
 
-## Project Overview
+##Project Overview
 
 Phishing attacks trick users into giving up sensitive information via deceptive websites. This project uses a dataset of URLs and their associated features to train a Naive Bayes model that classifies them as either **Safe** or **Phishing**.
 
